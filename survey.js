@@ -21,13 +21,9 @@ rl.question("What's your name? Nicknames are also acceptable :) ", (name) => {
                     'What is your superpower? In a few words, tell us what you are amazing at! ',
                     (power) => {
                       let str = `
-                      My Name is ${name} 
-                      i love programming ${coding}
-                      I enjoy listening ${pop}
-                      I enjoy  my ${brunch}
-                      and i like to eat ${chicken}
-                      my favourite sport is ${football}
-                      I am good at running and cooking ${power}
+                      ${name} loves ${coding} and enjoys listening to ${pop} music. 
+                      ${brunch} is his favorite meal for which he likes to eat ${chicken}. 
+                      His favorite sport is ${football} and his superpower is ${power}.
                       `;
                       console.log(str);
                       rl.close();
